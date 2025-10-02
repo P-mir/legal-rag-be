@@ -53,3 +53,5 @@ warn_unreachable = true
 fix = true
 line-length = 100
 src = ["src", "tests"]
+
+[tool.bandit]
