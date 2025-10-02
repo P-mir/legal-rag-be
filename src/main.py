@@ -3,7 +3,7 @@ import streamlit as st
 # Set page title
 st.set_page_config(page_title="Hello World App")
 
-# Display a header
+# Display a heeader
 st.header("Hello, World!")
 
 # Display some text
@@ -16,30 +16,3 @@ class A:
 
     def display_value(self):
         st.write(f"The value is: {self.value}")
-    def __init__(self):
-        self.value = 42
-
-    def display_value(self):
-        st.write(f"The value is: {self.value}")
-    def __init__(self):
-        self.value = 42
-
-    def display_value(self):
-        st.write(f"The value is: {self.value}")
-    def __init__(self):
-        self.value = 42
-
-    def display_value(self):
-        st.write(f"The value is: {self.value}")
-    def __init__(self):
-        self.value = 42
-
-    def display_value(self):
-        st.write(f"The value is: {self.value}")
-    def __init__(self):
-        self.value = 42
-
-    def display_value(self):
-        st.write(f"The value is: {self.value}")
-
-

@@ -5,6 +5,10 @@ repos:
   hooks:
     - id: ruff
     - id: ruff-format
+
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v6.0.0
+  hooks:
     - id: check-added-large-files
     - id: check-case-conflict
     - id: check-merge-conflict
@@ -26,4 +30,3 @@ repos:
   rev: '1.8.6' # Use a recent version
   hooks:
   - id: bandit
-
