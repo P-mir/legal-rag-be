@@ -1,0 +1,38 @@
+# .gitignore for a typical MLOps project
+# For more examples, see https://git-scm.com/docs/gitignore
+
+# Environments & Dependencies
+.env
+.venv/
+/env/
+/venv/
+/node_modules/
+
+# Caches & Logs
+.cache/
+.coverage*
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+*.log
+
+# Build & Distribution
+/build/
+/dist/
+/site/
+
+# Editor & OS-specific
+.idea/
+.vscode/
+.DS_Store
+.ipynb_checkpoints/
+
+# MLOps Artifacts & Outputs
+/data/
+/datasets/
+/mlruns/
+/outputs/
+/models/
+!**/.gitkeep
