@@ -50,5 +50,9 @@
     ],
     "postCreateCommand": "uv sync",
     "remoteUser": "root",
-    "workspaceFolder": "/app"
+    "workspaceFolder": "/app",
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/app,type=bind,consistency=cached",
+        "source=${localEnv:HOME}/.ssh,target=/root/.ssh,type=bind,consistency=cached"
+    ]
 }
